@@ -24,3 +24,9 @@
   description: Check that files are not binary executables
   entry: check-invalid-filetypes
   language: python
+
+- id: check-invalid-filepaths-branch
+  name: Check invalid filepaths and branch
+  description: Check that directory names match a pattern
+  entry: check-invalid-filepaths-branch
+  language: python
