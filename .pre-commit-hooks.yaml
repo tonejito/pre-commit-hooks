@@ -18,3 +18,9 @@
   description: Check that filenames do not have invalid characters
   entry: check-invalid-filenames
   language: python
+
+- id: check-invalid-filetypes
+  name: Check invalid filetypes
+  description: Check that files are not binary executables
+  entry: check-invalid-filetypes
+  language: python
