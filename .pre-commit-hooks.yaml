@@ -1,0 +1,14 @@
+---
+# .pre-commit-hooks.yaml
+
+- id: always-pass
+  name: Always succeeds
+  description: Like /bin/true for pre-commit
+  entry: always-pass
+  language: python
+
+- id: always-fail
+  name: Always fails
+  description: Like /bin/false for pre-commit
+  entry: always-fail
+  language: python
