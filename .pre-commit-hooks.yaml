@@ -12,3 +12,9 @@
   description: Like /bin/false for pre-commit
   entry: always-fail
   language: python
+
+- id: check-invalid-filenames
+  name: Check invalid filenames
+  description: Check that filenames do not have invalid characters
+  entry: check-invalid-filenames
+  language: python
